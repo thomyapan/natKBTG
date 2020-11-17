@@ -1,2 +1,2 @@
-# payment-101
+# Payment-101
 Example project - Connect to payment to Payment UI
