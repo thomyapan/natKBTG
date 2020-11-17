@@ -1,6 +1,6 @@
 # Payment-101
 
-​	   Example java code to create a cart on ecommerce website and integrate to Payment UI with java spring boot.
+​	   Example java code to create a checkout page on ecommerce website and integrate to Payment UI with java spring boot.
 
 ##### Prerequisite tools.
    1. Create User Account 
