@@ -14,15 +14,15 @@
 do the following:
 -  [Download](https://github.com/boonys20/payment-101/archive/main.zip) and unzip the source repository for this guide, or clone it using [Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 
-  `git clone https://github.com/boonys20/payment-101.git`
+   `git clone https://github.com/boonys20/payment-101.git`
 
 - Change remote url to your's repository using command below,
 
-  `git remote set-url origin https://github.com/your_username/your_repo_name.git` 
+   `git remote set-url origin https://github.com/your_username/your_repo_name.git` 
 
   then send git commands to push to you remote.
 
-  `git add . && git commit -m "initial skeleton project" && git push -u origin master`
+   `git add . && git commit -m "initial skeleton project" && git push -u origin master`
 
 - cd into `initial` folder and Open file `README.md` 
 
