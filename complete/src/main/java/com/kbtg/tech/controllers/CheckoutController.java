@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class CheckoutController {
 
     @GetMapping("/Checkout")
-    public String greeting() {
+    public String checkout() {
         return "checkout";
     }
 
     @PostMapping("/Confirm")
-    public String greeting() {
+    public String confirm() {
         return "confirm";
     }
 
