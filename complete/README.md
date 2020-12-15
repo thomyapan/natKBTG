@@ -14,3 +14,4 @@
 do the following:
    - [Download](https://github.com/boonys20/payment-101/archive/main.zip) and unzip the source repository for this guide, or clone it using [Git](https://spring.io/understanding/Git): `git clone https://github.com/boonys20/payment-101.git`
    - cd into `initial` folder and Open file `README.MD`
+   - Data for Testing `5565 6948 2863 1115`

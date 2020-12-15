@@ -14,21 +14,21 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class CheckoutController {
 
 	@GetMapping("/Checkout")
-	public String greeting() {
-		return "checkout";
-	}
-  
-  	@PostMapping("/Confirm")
-	public String greeting() {
-		return "confirm";
-	}
+    public String checkout() {
+        return "checkout";
+    }
+
+    @PostMapping("/Confirm")
+    public String confirm() {
+        return "confirm";
+    }
 
 }
 ```
 2. Edit a web page, in folder `resources\public` at  `index.html` then find a comment `<!-- Input code here to connect with KPayment UI -->` and insert code below.
 
 ```html
-<form id="formCheckOut" method="POST" action="/checkout">
+<form id="formCheckOut" method="POST" action="/Confirm">
     <script type="text/javascript" src="https://dev-kpaymentgateway.kasikornbank.com/ui/v2/kpayment.min.js"
             data-apikey="pkey_test_1GzaL0tZIZVQPJk1CZYGpIA4qRL3uo4y6"
             data-name="Silpakorn University" 
@@ -54,7 +54,7 @@ spring.datasource.password=your_password
 spring.devtools.livereload.enabled=true
 ```
 
-test your code by by using `./mvnw spring-boot:run`  inside `initial` folder, if service is running you will see result below.
+test your code by using `./mvnw spring-boot:run`  inside `initial` folder, if service is running you will see result below.
 
 ```text
  .   ____          _            __ _ _
