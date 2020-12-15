@@ -1,6 +1,7 @@
 # Exercise 1 : Create web application with Spring boot.
 
 1. Create a Web Controller, Create new folder `controllers` in `src\main\java\main\com\kbtg\tech\` and java file `CheckoutController.java` and insert code below.
+
 ```java
 package com.kbtg.tech.controllers;
 
@@ -17,7 +18,7 @@ public class CheckoutController {
 		return "checkout";
 	}
   
-  @PostMapping("/Confirm")
+  	@PostMapping("/Confirm")
 	public String greeting() {
 		return "confirm";
 	}
@@ -25,6 +26,16 @@ public class CheckoutController {
 }
 ```
 2. 
+```javascript
+<script type="text/javascript" src="https://dev-kpaymentgateway.kasikornbank.com/ui/v2/kpayment.min.js" 
+                                data-apikey="pkey_test_1GzaL0tZIZVQPJk1CZYGpIA4qRL3uo4y6"
+                                data-name="Silpakorn University" 
+                                data-description="Silpakorn Shop" 
+                                data-amount="199" 
+                                data-currency="THB"
+                                data-savecard=false 
+                            >
+```
 
 
 

@@ -26,16 +26,16 @@
                         <div class="row">
                             <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
                             <div class="col-sm-10">
-                                <h4 class="nomargin">Product 1</h4>
-                                <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                                <h4 class="nomargin">เสื้อยืดลาย One KBTG</h4>
+                                <p>ใส่แล้วเท่ห์ ใส่สบาย ใส่แล้ว code ได้ code ดี</p>
                             </div>
                         </div>
                     </td>
-                    <td data-th="Price">$1.99</td>
+                    <td data-th="Price">199</td>
                     <td data-th="Quantity">
-                        <input type="number" class="form-control text-center" value="1">
+                        <strong>1</strong>
                     </td>
-                    <td data-th="Subtotal" class="text-center">1.99</td>
+                    <td data-th="Subtotal" class="text-center">199</td>
                     <td class="actions" data-th="">
                         <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
                         <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
@@ -47,13 +47,27 @@
                     <td class="text-center"><strong>Total 1.99</strong></td>
                 </tr>
                 <tr>
-                    <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+                    <td></td>
                     <td colspan="2" class="hidden-xs"></td>
-                    <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
-                    <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                    <td class="hidden-xs text-center"><strong>Total 199</strong></td>
+                    <td>
+                        <!-- Input code here to connect with KPayment UI -->
+                        <form id="formCheckOut" method="POST" action="/checkout">
+                            <script type="text/javascript" src="https://dev-kpaymentgateway.kasikornbank.com/ui/v2/kpayment.min.js" 
+                                data-apikey="pkey_test_1GzaL0tZIZVQPJk1CZYGpIA4qRL3uo4y6"
+                                data-name="Silpakorn University" 
+                                data-description="Silpakorn Shop" 
+                                data-amount="199" 
+                                data-currency="THB"
+                                data-savecard=false 
+                            >
+                            </script>
+                        </form>
+                    </td>
                 </tr>
             </tfoot>
         </table>
+
     </div>
 </body>
 </html>
