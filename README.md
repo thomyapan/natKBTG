@@ -1,4 +1,4 @@
-# Payment-101: Create a seamless payment experience with K-Payment Gateway.
+  # Payment-101: Create a seamless payment experience with K-Payment Gateway.
 
 ​	   Example java code to create a checkout page on ecommerce website and integrate to Payment UI with java spring boot.
 
